@@ -1,0 +1,9 @@
+.app-container { font-family: system-ui; max-width: 600px; margin: 0 auto; padding: 20px; text-align: center; }
+.filters { margin-bottom: 20px; display: flex; gap: 10px; justify-content: center; }
+button { padding: 8px 16px; border: none; border-radius: 20px; cursor: pointer; background: #eee; }
+button.active { background: #007bff; color: white; }
+.gem-list { display: grid; gap: 10px; margin-bottom: 20px; }
+.gem-card { padding: 15px; border: 1px solid #ddd; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+.gem-card:hover { border-color: #007bff; }
+.category-tag { font-size: 0.8em; background: #e0e0e0; padding: 2px 8px; border-radius: 10px; }
+.gem-details { padding: 20px; background: #f9f9f9; border-radius: 8px; border-left: 5px solid #007bff; }
