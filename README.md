@@ -1,13 +1,14 @@
-# Localfye - Research Milestone
+Localfye - Research Milestone
 
-This repository contains my personal research milestone for the Capstone project. I chose to explore **React + Vite** for the frontend architecture, utilizing **npm** as the package manager.
+This is my individual research milestone for our Localfye Capstone project. I explored React, Vite, and npm to get a better understanding of how we could build our app's Explore page.
 
-## What I Learned
-1. **Platform/Framework:** React provides an efficient way to manage state (using `useState`) which is perfect for our map filtering and location selection features. Vite makes the build process incredibly fast compared to Create React App.
-2. **Package Manager (npm):** I learned that `package.json` tracks dependencies, while `package-lock.json` ensures deterministic installs across the team. Running `npm install` is crucial before starting any pulled code.
-3. **Interactivity:** I built a mini-version of our "Explore" page where users can filter "Hidden Gems" by category and view their "Swag Scores".
-
-## How to Run
-1. Clone this repo.
-2. Run `npm install` to download dependencies.
-3. Run `npm run dev` to start the local server.
+What I Learned
+React: I learned how to use useState to update the page when users interact with it.
+Vite: I used Vite to set up the React project and run it locally.
+npm: I learned how package.json manages dependencies and why running npm install is important when setting up a project.
+Interactivity: I built a simple demo where users can filter sample locations by category and click on a location to see its details and Swag Score.
+How to Run
+Clone this repository.
+Run npm install.
+Run npm run dev.
+Open the local URL shown in the terminal.
